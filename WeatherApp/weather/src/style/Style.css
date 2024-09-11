@@ -1,0 +1,663 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Nerko+One&display=swap');
+
+@font-face {
+  font-family: 'Carmen Sans';
+  src: url('CarmenSans-Medium.eot');
+  src: local('Carmen Sans Medium'), local('CarmenSans-Medium'),
+    url('CarmenSans-Medium.eot?#iefix') format('embedded-opentype'),
+    url('CarmenSans-Medium.woff2') format('woff2'),
+    url('CarmenSans-Medium.woff') format('woff'),
+    url('CarmenSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Carmen Sans';
+  src: url('CarmenSans-Bold.eot');
+  src: local('Carmen Sans Bold'), local('CarmenSans-Bold'),
+    url('CarmenSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('CarmenSans-Bold.woff2') format('woff2'),
+    url('CarmenSans-Bold.woff') format('woff'),
+    url('CarmenSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Carmen Sans';
+  src: url('CarmenSans-ExtraBold.eot');
+  src: local('Carmen Sans ExtraBold'), local('CarmenSans-ExtraBold'),
+    url('CarmenSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('CarmenSans-ExtraBold.woff2') format('woff2'),
+    url('CarmenSans-ExtraBold.woff') format('woff'),
+    url('CarmenSans-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Carmen Sans';
+  src: url('CarmenSans-Heavy.eot');
+  src: local('Carmen Sans Heavy'), local('CarmenSans-Heavy'),
+    url('CarmenSans-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('CarmenSans-Heavy.woff2') format('woff2'),
+    url('CarmenSans-Heavy.woff') format('woff'),
+    url('CarmenSans-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Carmen Sans';
+  src: url('CarmenSans-Light.eot');
+  src: local('Carmen Sans Light'), local('CarmenSans-Light'),
+    url('CarmenSans-Light.eot?#iefix') format('embedded-opentype'),
+    url('CarmenSans-Light.woff2') format('woff2'),
+    url('CarmenSans-Light.woff') format('woff'),
+    url('CarmenSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Carmen Sans';
+  src: url('CarmenSans-Regular.eot');
+  src: local('Carmen Sans Regular'), local('CarmenSans-Regular'),
+    url('CarmenSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('CarmenSans-Regular.woff2') format('woff2'),
+    url('CarmenSans-Regular.woff') format('woff'),
+    url('CarmenSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Carmen Sans';
+  src: url('CarmenSans-UltraLight.eot');
+  src: local('Carmen Sans UltraLight'), local('CarmenSans-UltraLight'),
+    url('CarmenSans-UltraLight.eot?#iefix') format('embedded-opentype'),
+    url('CarmenSans-UltraLight.woff2') format('woff2'),
+    url('CarmenSans-UltraLight.woff') format('woff'),
+    url('CarmenSans-UltraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Carmen Sans';
+  src: url('CarmenSans-Thin.eot');
+  src: local('Carmen Sans Thin'), local('CarmenSans-Thin'),
+    url('CarmenSans-Thin.eot?#iefix') format('embedded-opentype'),
+    url('CarmenSans-Thin.woff2') format('woff2'),
+    url('CarmenSans-Thin.woff') format('woff'),
+    url('CarmenSans-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Carmen Sans';
+  src: url('CarmenSans-SemiBold.eot');
+  src: local('Carmen Sans SemiBold'), local('CarmenSans-SemiBold'),
+    url('CarmenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('CarmenSans-SemiBold.woff2') format('woff2'),
+    url('CarmenSans-SemiBold.woff') format('woff'),
+    url('CarmenSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Carmen Sans';
+}
+
+.Hero {
+  background-image: url("../assets//Default.jpg");
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+
+.sunrise {
+  background-image: url('../assets/Sunrise.jpg');
+}
+
+.cloudy {
+  background-image: url('../assets/Cloudy.jpg');
+}
+
+.mist {
+  background-image: url("https://img.freepik.com/free-photo/park-walkway-covered-fog_181624-14669.jpg?t=st=1726030784~exp=1726034384~hmac=655d11e40ba44da1bb5e695a17536ebfd083bf42e6db5a3689c3d6db25ec51ce&w=996");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.haze {
+  background-image: url("https://img.freepik.com/free-photo/empty-street-dark-atmosphere_23-2150914356.jpg?t=st=1726031210~exp=1726034810~hmac=4e18bf4bf260148ac8778f53a89fe57c1010aa9a97939fca0d2b74297e1371e0&w=996");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Default {
+  background-image: url("../assets/Default.jpg");
+}
+
+.sunny {
+  background: url("../assets/sunshine.jpg");
+}
+
+.Haze {
+  background-image: url("../assets/haze.jpg");
+}
+
+.lightning {
+  background-image: url('../assets/Lightning.jpg');
+}
+
+.night {
+  background-image: url('../assets/Night.jpg');
+}
+
+.snow {
+  background-image: url('../assets/Snow.avif');
+}
+
+.rain {
+  background-image: url('https://cdn.pixabay.com/photo/2021/05/10/14/48/rain-6243559_960_720.jpg');
+}
+
+.weather-info {
+  color: white;
+  font-size: 3rem;
+  margin-left: 2rem;
+}
+
+.weather-info h1 {
+  font-family: 'carmen sans';
+  font-weight: 800;
+  font-size: 4rem;
+  text-transform: capitalize;
+}
+
+.error-message {
+  margin-top: -22px;
+  color: red;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  margin-left: 6rem;
+}
+
+.logo img {
+  width: 5rem;
+}
+
+.upper-detail .time {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.left {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+
+.date-time {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.right {
+  width: 25%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-left: 2px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.search-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container button img {
+  width: 1.5rem;
+}
+
+.search-bar {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 1rem;
+  width: 80%;
+}
+
+.search-city {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.Temp-wind {
+  margin-top: 1.7rem;
+}
+
+hr {
+  margin-bottom: 2rem;
+  margin-top: 2.5rem;
+}
+
+.search-bar::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.search-bar:focus {
+  outline: none;
+  border: none;
+}
+
+.Temp {
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+
+.windspeed {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 4rem;
+}
+
+.windspeed img {
+  width: 1rem;
+}
+
+.Wind {
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 0.8rem;
+}
+
+.inner img {
+  width: 27px;
+  margin-left: 2%;
+  margin-right: 26px;
+
+}
+
+.feelslike img,
+.pressure img,
+.minTemp img,
+.maxTemp img {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 16px;
+  border-radius: 10px;
+}
+
+.inner {
+  color: White;
+  display: flex;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.more-info {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 72%;
+}
+
+@media screen and (max-width:1100px) {
+  .more-info {
+    max-width: 100%;
+  }
+
+  .sunrise-small img,
+  .sunset-small img {
+    width: 36% !important;
+  }
+
+  .humidity img {
+    width: 26%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .Hero {
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .right {
+    width: 100%;
+    padding: 0;
+  }
+
+  .Welcome {
+    font-size: 1rem;
+  }
+
+  .inner {
+    margin-top: unset;
+    margin-left: unset;
+  }
+
+  .inner img {
+    margin-left: unset;
+  }
+
+  .pressure-feelsLike {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 24px;
+    width: 100%;
+  }
+
+  .lng-lat {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 0px;
+    width: 93%;
+  }
+
+  .weather-info h1 {
+    font-size: 3rem;
+  }
+
+  .logo img {
+    width: 3rem;
+  }
+
+  .unit-toggle-button {
+    margin-bottom: 20px;
+  }
+
+  .upper-detail {
+    margin-bottom: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .search-city {
+    width: 46%;
+  }
+
+  .windspeed {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    padding: 0 0;
+  }
+
+  .more-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .sunrise-small,
+  .sunset-small,
+  .humidity {
+    margin-bottom: 2rem;
+  }
+
+  .logo {
+
+    margin-left: -2rem;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .lng-lat {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    margin-left: 0px;
+    flex-direction: column;
+    margin-left: 35px;
+    width: 93%;
+  }
+
+  .pressure-feelsLike {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    margin-left: 0px;
+    flex-direction: column;
+    margin-left: 35px;
+    width: 93%;
+  }
+
+  .more-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 35px;
+    justify-content: space-evenly;
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+}
+
+.Welcome {
+  font-size: 3rem;
+  text-align: center;
+  color: black;
+  font-family: "Baskervville SC", serif !important;
+}
+
+.Default-screen {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Baskervville SC", serif;
+}
+
+.Default-screen .Date,
+.Default-screen .Time {
+  font-size: 3.1rem;
+  color: black;
+  text-align: center;
+  font-family: "Baskervville SC", serif;
+}
+
+.unit-toggle-button {
+  align-self: center;
+  margin-top: 1px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  display: flex;
+  color: white;
+  border-radius: 11px;
+  border: 1px solid white;
+  background-color: transparent;
+}
+
+.sunrise-small,
+.sunset-small,
+.humidity {
+  width: 10rem;
+  display: flex;
+  align-items: center;
+}
+
+.sunrise-small img,
+.sunset-small img {
+  width: 45%;
+  margin-right: 0.8rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 1px;
+  border-radius: 10px;
+}
+
+.search-button {
+  background-color: transparent;
+  border: none;
+  width: 20%;
+  transition: background-color 0.3s ease;
+}
+
+.weather-box {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  font-family: Arial, sans-serif;
+}
+
+.weather-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-box .icon img {
+  width: 30px;
+
+  height: 30px;
+}
+
+.weather-box .temperature {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.weather-box .location {
+  font-size: 18px;
+}
+
+.weather-box .condition {
+  font-size: 14px;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+.DetailsParaHeading {
+  font-size: 0.8rem;
+}
+
+.DetailsParaValue {
+  font-size: 1.6rem;
+}
+
+.humidityimg {
+  width: 3.33rem;
+  margin-right: 0.8rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-city {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.search-button {
+  margin-left: 10px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  right: 0;
+  background-color: rgb(255, 249, 249);
+  border: 1px solid #ccc;
+  color: black;
+  border-radius: 5px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+
+.dropdown-item:last-child {
+  border-bottom: none;
+}
+
+.dropdown-item:hover {
+  color: black;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.welcome-Date-Time {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
